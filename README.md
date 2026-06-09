@@ -1,0 +1,56 @@
+# hayaboosan
+
+**Web制作 — クリーンでアクセシブルなLP・小規模サイトを、フレームワークなしで。**
+
+個人でWeb制作をしています。React等のフレームワークに頼らず、**素のHTML / CSS / JavaScript** で軽快に動く、読みやすく崩れにくいサイトを作るのが得意です。
+**LP制作 / 小規模サイト / 既存サイトの修正・改修** を承っています。お気軽にご相談ください。
+
+---
+
+## 制作できるもの
+
+- **ランディングページ（LP）** — 商品・サービス・キャンペーン向けの1枚完結ページ
+- **コーポレート小規模サイト** — 店舗・個人事業・小さな会社向けの数ページ構成サイト
+- **既存サイトの修正・改修** — 表示崩れの修正、スマホ対応、文言・デザインの差し替え、ちょっとした機能追加
+
+---
+
+## 技術スタック
+
+- **HTML5 / CSS3 / vanilla JavaScript** — フレームワーク・ライブラリ不使用。ビルド工程なしでそのまま動く構成
+- **レスポンシブ対応** — スマートフォンからワイド画面まで、CSS Grid / Flexbox で柔軟に
+- **アクセシビリティ（WCAG AA を目安に）** — キーボード操作、ARIA属性、`prefers-reduced-motion` への配慮
+- **Git / GitHub Pages / Vercel** — バージョン管理と、すぐ確認できる公開環境
+- **AI（Claude Code）を活用した実装・改修** — AIとの協働で、見積りからリリースまでのスピードと品質を両立します
+
+<p>
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white">
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white">
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black">
+  <img alt="Responsive" src="https://img.shields.io/badge/Responsive-2EA44F">
+  <img alt="Accessibility" src="https://img.shields.io/badge/A11y%20WCAG%20AA-0A7B83">
+  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white">
+  <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages&logoColor=white">
+  <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white">
+  <img alt="Claude Code" src="https://img.shields.io/badge/Claude%20Code-D97757?logo=anthropic&logoColor=white">
+</p>
+
+---
+
+## ポートフォリオ
+
+フレームワークを使わず、vanilla な HTML / CSS / JavaScript のみで制作したLP作品をまとめています。
+
+- 🌐 **デモサイト**: https://hayaboosan.github.io/portfolio/
+- 📁 **リポジトリ**: https://github.com/hayaboosan/portfolio
+
+> 掲載しているブランド・店舗・サービス・お客様の声・実績数値は、すべて**架空のサンプル**です。
+
+---
+
+## お仕事のご相談
+
+LP制作・小規模サイト・既存サイトの改修など、**クラウドワークス**よりお気軽にご相談ください。
+内容の整理からご一緒しますので、「何を頼めばいいか分からない」段階でも大丈夫です。
+
+- 💼 **クラウドワークス**: https://crowdworks.jp/public/employees/3919155/
