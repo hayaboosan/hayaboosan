@@ -1,40 +1,46 @@
 # hayaboosan
 
-**Web制作 — クリーンでアクセシブルなLP・小規模サイトを、フレームワークなしで。**
+**Excel VBA・Python 業務自動化 — 「動くけど中身が分からない」を残さない保守と自動化。**
 
-個人でWeb制作をしています。React等のフレームワークに頼らず、**素のHTML / CSS / JavaScript** で軽快に動く、読みやすく崩れにくいサイトを作るのが得意です。
-**LP制作 / 小規模サイト / 既存サイトの修正・改修** を承っています。お気軽にご相談ください。
+個人で **Excelマクロ（VBA）の解読・修正・開発** と、**Pythonによる業務の自動化** を承っています。
+本業でもExcelマクロ群の開発・保守・改修（新規作成含む）を担当しており、「作った人がいなくなって誰も触れない」「エラーで止まるが原因が分からない」といった状態を、**日本語の文書とセットで**立て直すのが得意です。お気軽にご相談ください。
 
 ---
 
-## 制作できるもの
+## 対応できること
 
-- **ランディングページ（LP）** — 商品・サービス・キャンペーン向けの1枚完結ページ
-- **コーポレート小規模サイト** — 店舗・個人事業・小さな会社向けの数ページ構成サイト
-- **既存サイトの修正・改修** — 表示崩れの修正、スマホ対応、文言・デザインの差し替え、ちょっとした機能追加
-- **WordPress の修正・機能追加（コード層）** — 子テーマでのCSS調整・レイアウト修正、functions.php での機能追加（カスタム投稿・ショートコード）、カスタムブロック、コード層の表示速度改善。※Elementor 等ページビルダーでの構築・ゼロからのデザイン制作は対象外
+- **Excelマクロ（VBA）の解読・文書化** — 引き継がれたマクロが「何をしているのか」を読み解き、処理の流れ・変えてよい場所・触ってはいけない場所を日本語のレポートに整理
+- **Excelマクロ（VBA）の修正・改修** — シート名や列の変更で動かなくなった、エラーで止まる、といった修正・小改修。何をどう直したかの変更内容書を添えて納品
+- **Excelマクロ（VBA）の機能追加・新規開発** — 既存ブックへのボタン・帳票出力の追加から、新規マクロの作成まで
+- **Pythonによる業務自動化** — 複数のExcel/CSVファイルの集計・突合・レポート作成、ファイルの振り分け・リネーム・形式変換など、毎月・毎週繰り返す定型作業のスクリプト化
+
+---
+
+## 仕事の進め方（納品スタイル）
+
+「直して終わり」にせず、**あとから別の人が引き継げる状態**で納品します。
+
+- **解読レポート** — マクロの中身を非エンジニアの方にも分かる日本語で文書化
+- **変更内容書** — 修正の原因・変更箇所・影響範囲・スコープ外をA4 1枚に明記
+- **実行手順書** — Python自動化はセットアップからトラブル対処までの手順書つき
 
 ---
 
 ## 技術スタック
 
-- **HTML5 / CSS3 / vanilla JavaScript** — フレームワーク・ライブラリ不使用。ビルド工程なしでそのまま動く構成
-- **WordPress（子テーマ・コード層）** — 子テーマ・functions.php のフック・ビルド不要の動的ブロック・速度改善。親テーマ無改変のアップデート耐性を重視
-- **レスポンシブ対応** — スマートフォンからワイド画面まで、CSS Grid / Flexbox で柔軟に
-- **アクセシビリティ（WCAG AA を目安に）** — キーボード操作、ARIA属性、`prefers-reduced-motion` への配慮
-- **Git / GitHub Pages / Vercel** — バージョン管理と、すぐ確認できる公開環境
-- **AI（Claude Code）を活用した実装・改修** — AIとの協働で、見積りからリリースまでのスピードと品質を両立します
+- **Excel VBA** — マクロの解読・修正・改修・新規開発。既存ブックを壊さない最小変更と、変更履歴の文書化を重視
+- **Python** — pandas / openpyxl を中心に、Excel/CSVの集計・レポート作成・ファイル処理を自動化。非エンジニアの方がダブルクリックで実行できる形で納品
+- **Excel関数・Power Query** — 「マクロにしないほうが運用が楽」な場面では、関数中心の構成も提案します
+- **Git / GitHub** — バージョン管理と変更履歴の明確化
+- **AI（Claude Code）を活用した実装・文書化** — AIとの協働で、見積りから納品までのスピードと品質を両立します
 
 <p>
-  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white">
-  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white">
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black">
-  <img alt="WordPress" src="https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=white">
-  <img alt="Responsive" src="https://img.shields.io/badge/Responsive-2EA44F">
-  <img alt="Accessibility" src="https://img.shields.io/badge/A11y%20WCAG%20AA-0A7B83">
+  <img alt="Excel VBA" src="https://img.shields.io/badge/Excel%20VBA-217346">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
+  <img alt="pandas" src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white">
+  <img alt="openpyxl" src="https://img.shields.io/badge/openpyxl-1D6F42">
+  <img alt="Power Query" src="https://img.shields.io/badge/Power%20Query-107C41">
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white">
-  <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages&logoColor=white">
-  <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white">
   <img alt="Claude Code" src="https://img.shields.io/badge/Claude%20Code-D97757?logo=anthropic&logoColor=white">
 </p>
 
@@ -42,29 +48,26 @@
 
 ## ポートフォリオ
 
-フレームワークを使わず、vanilla な HTML / CSS / JavaScript のみで制作した作品をまとめています。静的なLPから、状態を持つインタラクティブなツール、データ駆動の一覧UIまで、表現の幅を示しています。
+納品物の「実物見本」を中心にまとめています。コードだけでなく、**添えて納品する文書**まで見ていただけます。
 
-- 🌐 **デモサイト**: https://hayaboosan.github.io/portfolio/
+- 🌐 **デモサイト**: https://portfolio.tegumi.dev/
 - 📁 **リポジトリ**: https://github.com/hayaboosan/portfolio
 
 収録内容：
 
-- **LP 5作品** — オンラインスクール／コーヒー焙煎所／美容サロン／パーソナルジム／歯科クリニック（明るい清潔系まで配色のレンジを用意）
-- **サイト改修ビフォーアフター事例 2件** — 整骨院・個人食堂の「2008年当時の作り → 現行標準（スマホ対応・WCAG AA・`tel:`・予約フォーム）」を、Before→After対応表つきで比較
-- **WordPress 子テーマ改修デモ** — 既存WPサイト（Lightning）を子テーマ・functions.php・自作ブロックだけで改修（tel:化＋固定CTA・診療時間表・お知らせ機能・**JS 96%削減の実測つき速度改善**）。コードは [lightning-child-demo](https://github.com/hayaboosan/lightning-child-demo) で公開し、WordPress Playground の blueprint 同梱で**1コマンドで改修前後を手元再現**できます
-- **よくある小修正デモ集** — スマホ崩れ・フォーム設置・画像最適化・コントラスト・`tel:`リンク化・レイアウト崩れを、実際に触れる Before→After で実演
-- **検索エンジン対応・Q&A設置デモ** — `title` / `meta description` で検索結果の見え方がどう変わるかの Before→After、「検索に出ない」ときの確認7項目（noindex・Search Console・サイトマップ等）、JS無効でも動くQ&A実装と **FAQPage 構造化データ（JSON-LD）**。リッチリザルトの現状も含め「できること・できないこと」を正直に書いた構成
-- **見積もりWebアプリ（インタラクティブツール）** — リフォーム見積もりシミュレーター。箇所×グレード×オプション×広さからリアルタイムで明細・税込合計を計算し、選択内容をURLに保存して共有・復元できる1画面完結UI
-- **賃貸物件検索UI（データ駆動の一覧）** — 家賃・間取り・面積・駅徒歩・こだわり条件などの多軸絞り込み（ファセット検索）＋並べ替え＋件数の即時更新。URL保存・お気に入りの `localStorage` 永続化つき。JS無効でも全件一覧できるプログレッシブエンハンスメント設計
+- **事例①：修正・復旧（`vba-case-fix/`）** — 実行時エラー9で止まった架空の請求書マクロを、原因特定→修正→再発予防→文書つき納品まで。Before/Afterの実コード差分・画面つき
+- **事例②：新規開発（`vba-case-build/`）** — 日次売上CSV 61ファイルの取込〜月次レポート自動生成をボタン1つに。動くマクロ本体とソース一式（`vba-works/`）も公開
+- **Excel VBA 保守の納品文書サンプル（`vba-docs/`）** — 解読レポート・変更内容書・動作確認書・引き継ぎ手順書・ソース保管方法の実物見本5点。そのままA4のPDFとして出力できる印刷CSSつき
+- **Python 業務自動化の納品文書サンプル（`python-docs/`）** — 仕様書と実行手順書の実物見本2点。題材は見本用に自作した架空の「複数店舗 日次売上集計スクリプト」
 
-> 掲載しているブランド・店舗・サービス・お客様の声・実績数値は、すべて**架空のサンプル**です。
+> 掲載している題材・社名・データ・数値は、すべて見本用に作成した**架空のサンプル（想定値）**です。実際の顧客ファイル・業務データは一切使用していません。
 
 ---
 
 ## お仕事のご相談
 
-LP制作・小規模サイト・既存サイトの改修など、**クラウドワークス**または**ランサーズ**よりお気軽にご相談ください。
-内容の整理からご一緒しますので、「何を頼めばいいか分からない」段階でも大丈夫です。
+Excelマクロ（VBA）の解読・修正・開発、Pythonによる業務自動化など、**クラウドワークス**または**ランサーズ**よりお気軽にご相談ください。
+「どこから手を付ければいいか分からない」段階でも、内容の整理からご一緒します。
 
 - 💼 **クラウドワークス**: https://crowdworks.jp/public/employees/3919155/
 - 💼 **ランサーズ**: https://www.lancers.jp/profile/busa8823
